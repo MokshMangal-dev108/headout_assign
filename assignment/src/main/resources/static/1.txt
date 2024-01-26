@@ -1,0 +1,40 @@
+1. Easy to use => simple, flexible and easy to use, no matter your location.
+2. secure
+
+
+first we create mongodb database and made a connection with my server,and then we made routes
+
+this project follows client-server architicture. In this project for the better communication among all clients we need socket.io library 
+that helps to build a reliable communication link.
+
+i also used peer.js that help all clients to share there video and audio between them.
+
+Express : It is the server-based framework for node.js
+
+uuid module: This module is used to generate a unique id. This will be used in this project 
+
+
+implementation : 
+ 
+1st step : create server.js file and write basic code for srver initialization
+2nd step : import socket.io library and add into server.js file
+3 : add a ejs file that help in to show frontend
+4 : for generating a unique id, i need to implement some code, because whenever i want to host a meeting then i need a meeting key id and
+	the password associated with it.
+
+Let’s Implement the main function of this app – 
+Now we are going to take users audio, video streams and send that stream to another client. For this, we are going to use WebRTC here.
+
+Real-time applications(Instant messenger, Online gaming, push notification etc), on the other hand, are those applications which run within a given time-slot such that user is presented with immediate and up-to-date copy of the resource. 
+
+Socket.IO is one such JavaScript library that programmers use in developing real-time “Web Applications”.
+
+Socket.IO works on the same concept and enables bi-directional communication between web clients and servers. For handling them separately and efficiently, it consists of two parts;
+	a JavaScript client library that runs on browsers.
+	a Node.js server
+some further links to read :  1. https://www.geeksforgeeks.org/introduction-to-sockets-io-in-node-js/
+			      2. https://www.geeksforgeeks.org/how-to-make-a-video-call-app-in-node-js/
+
+
+
+
